@@ -77,6 +77,7 @@ section:nth-child(odd)
 section h2 {
     margin: 0;
     font-size: 2.5em;
+    padding: 10px;
 }
 
 .btn-round {
@@ -114,7 +115,7 @@ section h2 {
 footer {
   color: #fff;
   padding-top: 50px;
-background-color: #2c3e50;
+  background-color: #2c3e50;
   padding-bottom: 25px;
 
 }
