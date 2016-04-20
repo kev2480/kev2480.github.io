@@ -130,6 +130,10 @@ footer {
     margin: 0 auto;
 }
 
+.portfolio-modal * {
+  padding: 10px;
+}
+
 .swing:hover
 {
         -webkit-animation: swing 1s ease;
