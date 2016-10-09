@@ -6,9 +6,26 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-family: 'Amatic SC', cursive;
     font-weight: 700;
+}
+
+h1 {
+		font-size: 2.5em;
+}
+
+h2 {
+		font-size: 3.0em;
+}
+
+h3 {
+		font-size: 2.0em;
+		font-weight: 500;
+}
+
+p, a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
 }
 
 .profile-img
@@ -40,8 +57,6 @@ header img
 header .intro-text .name
 {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -76,7 +91,6 @@ section:nth-child(odd)
 
 section h2 {
     margin: 0;
-    font-size: 2.5em;
     padding: 10px;
 }
 
@@ -137,10 +151,10 @@ footer {
 
 .swing:hover
 {
-        -webkit-animation: swing 1s ease;
-        animation: swing 1s ease;
-        -webkit-animation-iteration-count: 1;
-        animation-iteration-count: 1;
+	-webkit-animation: swing 1s ease;
+	animation: swing 1s ease;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
 }
 
 @-webkit-keyframes swing
