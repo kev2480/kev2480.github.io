@@ -38,8 +38,9 @@ p, a {
 header
 {
     text-align: center;
-    color: #fff;
-    background: #18bc9c;
+    /*color: #fff;*/
+    /*background: #18bc9c;*/
+		background: aqua;
 }
 
 header .container
@@ -75,8 +76,8 @@ section
 
 section:nth-child(odd)
 {
-  background-color:#18bc9c;
-  color:#fff;
+  background-color:greenyellow;
+  /*color:#fff;*/
 }
 
 .oddLink
