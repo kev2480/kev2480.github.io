@@ -306,6 +306,14 @@
           </div>
     </div>
 
+<script>
+	$(window).on('scroll', function () {
+	    var pixs = $(document).scrollTop()
+	    pixs = pixs / 100;
+	    $("header").css({"-webkit-filter": "blur("+pixs+"px) grayscale("+ pixs * 10 +"%)","filter": "blur("+pixs+"px) grayscale("+ pixs * 20 +"%)" })
+	});
+</script>
+
 </body>
 
 </html>
