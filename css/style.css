@@ -28,6 +28,14 @@ p, a {
 	font-size: 1.2em;
 }
 
+body {
+	background: url(../img/geometry_@2X.png);
+}
+
+section, header {
+	border-bottom: #000000 5px solid;
+}
+
 .profile-img
 {
   border-style: dashed;
@@ -38,9 +46,7 @@ p, a {
 header
 {
     text-align: center;
-    /*color: #fff;*/
-    /*background: #18bc9c;*/
-		background: aqua;
+		background: #FFFFFF;
 }
 
 header .container
